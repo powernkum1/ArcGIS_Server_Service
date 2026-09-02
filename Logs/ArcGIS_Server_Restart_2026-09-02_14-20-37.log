@@ -1,0 +1,14 @@
+2026-09-02 14:20:37 - ============================================
+2026-09-02 14:20:37 - Starting ArcGIS Server Windows service restart
+2026-09-02 14:20:37 - ============================================
+2026-09-02 14:20:37 - Service found: ArcGIS Server
+2026-09-02 14:20:37 - Current status: Running
+2026-09-02 14:20:37 - Stopping ArcGIS Server Windows service...
+2026-09-02 14:20:37 - ArcGIS Server Windows service stopped successfully.
+2026-09-02 14:20:37 - Waiting 15 seconds before restart...
+2026-09-02 14:20:52 - Starting ArcGIS Server Windows service...
+2026-09-02 14:20:52 - Current status: Running
+2026-09-02 14:20:52 - ArcGIS Server Windows service restarted successfully.
+2026-09-02 14:20:52 - ============================================
+2026-09-02 14:20:52 - ArcGIS Server restart completed successfully.
+2026-09-02 14:20:52 - ============================================

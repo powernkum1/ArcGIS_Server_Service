@@ -1,0 +1,6 @@
+executable file -> Program/script:
+powershell.exe
+
+Get-Service | Where-Object {
+    $_.DisplayName -like "*ArcGIS*"
+}

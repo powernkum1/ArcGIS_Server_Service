@@ -1,0 +1,15 @@
+2026-09-02 14:49:43 - ============================================
+2026-09-02 14:49:43 - Starting ArcGIS Server Windows service restart
+2026-09-02 14:49:43 - ============================================
+2026-09-02 14:49:43 - Service found: ArcGIS Server
+2026-09-02 14:49:43 - Current status: Running
+2026-09-02 14:49:43 - TEST MODE - Would stop ArcGIS Server Windows service.
+2026-09-02 14:49:43 - TEST MODE - Stop command is commented out; service was not stopped.
+2026-09-02 14:49:43 - Waiting 15 seconds before restart...
+2026-09-02 14:49:58 - TEST MODE - Would start ArcGIS Server Windows service.
+2026-09-02 14:49:58 - Current status: Running
+2026-09-02 14:49:58 - TEST MODE - ArcGIS Server Windows service is currently running; no restart was performed.
+2026-09-02 14:49:58 - ============================================
+2026-09-02 14:49:58 - TEST MODE - ArcGIS Server restart test completed successfully; no service restart was performed.
+2026-09-02 14:49:58 - ============================================
+2026-09-02 14:50:00 - Email sent successfully.
