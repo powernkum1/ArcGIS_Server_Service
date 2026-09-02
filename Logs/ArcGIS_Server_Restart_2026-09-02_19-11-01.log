@@ -1,0 +1,16 @@
+2026-09-02 19:11:01 - ============================================
+2026-09-02 19:11:01 - Starting ArcGIS Server Windows service restart
+2026-09-02 19:11:01 - ============================================
+2026-09-02 19:11:01 - Service found: ArcGIS Server
+2026-09-02 19:11:01 - Current status: Running
+2026-09-02 19:11:01 - Stopping ArcGIS Server Windows service...
+2026-09-02 19:11:11 - ArcGIS Server Windows service stopped successfully.
+2026-09-02 19:11:11 - Waiting 15 seconds before restart...
+2026-09-02 19:11:26 - Starting ArcGIS Server Windows service...
+2026-09-02 19:11:27 - Current status: Running
+2026-09-02 19:11:27 - ArcGIS Server Windows service restarted successfully.
+2026-09-02 19:11:27 - ============================================
+2026-09-02 19:11:27 - ArcGIS Server restart completed successfully.
+2026-09-02 19:11:27 - ============================================
+2026-09-02 19:12:52 - Failed to send email.
+2026-09-02 19:12:52 - Email error: Exception calling "Send" with "1" argument(s): "Failure sending mail." | Inner Error: Failure sending mail.
