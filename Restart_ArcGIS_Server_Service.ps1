@@ -282,9 +282,9 @@ try {
     # WAIT BEFORE RESTART
     # -----------------------------------------------------------------------
 
-    Write-Log "Waiting 15 seconds before restart..."
+    Write-Log "Waiting 60 seconds before restart..."
 
-    Start-Sleep -Seconds 15
+    Start-Sleep -Seconds 60
 
 
     # -----------------------------------------------------------------------
@@ -340,13 +340,13 @@ try {
 
 
     # -----------------------------------------------------------------------
-    # SUCCESS EMAIL
+    # EMAIL NOTIFICATION WHEN SERVICE RESTART IS SUCCESSFUL
     # -----------------------------------------------------------------------
 
     if ($SendSuccessEmail) {
 
         Send-Email `
-            -Subject "ArcGIS Server Service Restart - SUCCESS" `
+            -Subject "ArcGIS Server Service Restart Summary" `
             -Message "The ArcGIS Server Windows service was restarted successfully on $env:COMPUTERNAME." `
             -Attachment $LogFile
 
@@ -375,7 +375,7 @@ catch {
 
 
     # -----------------------------------------------------------------------
-    # FAILURE EMAIL IS ALWAYS SENT
+    # EMAIL NOTIFICATION WHEN SERVICE RESTART IS UNSUCCESSFUL
     # -----------------------------------------------------------------------
 
     Send-Email `
